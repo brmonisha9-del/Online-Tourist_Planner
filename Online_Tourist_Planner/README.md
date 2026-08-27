@@ -1,25 +1,4 @@
-# 🌍 WanderLust - Online Tourist & Trip Planner
 
-A state-of-the-art, full-stack Vacation Planning and Tourism Booking Platform built with **Spring Boot 3 (Java 17)** and **React 18 + Vite**. 
-
----
-
-## 🌟 Key Features
-
-### 👤 For Travelers & Explorers
-- **Interactive Expedition Search**: Filter dream trips by destination, category (Mountain, Beach, Cultural, Wildlife, Luxury, Adventure), and budget.
-- **Detailed Day-by-Day Itineraries**: Interactive schedule with photo galleries, inclusions, exclusions, and real traveler reviews.
-- **Dedicated Fleet Vehicle Add-ons**: Bundle 4x4 SUVs, luxury vans, and executive sedans directly with tour packages.
-- **Express Multi-Step Checkout**: Real-time price calculator, date selectors, special diet/custom requests, and instant 256-bit simulated payment.
-- **Traveler Dashboard & Vouchers**: Manage bookings, print official travel vouchers, and perform instant cancellations.
-
-### 🛡️ For Administrators & Tour Operators
-- **Executive Analytics Dashboard**: Real-time KPI cards for gross revenue, active bookings, fleet utilization, and destination popularity.
-- **Full Tour Package CRUD**: Create, edit, and delete vacation packages with custom itineraries and pricing.
-- **Fleet Management**: Control vehicle availability, pricing, passenger capacities, and service statuses.
-- **Financial Reports & Exports**: Destination revenue breakdown, booking status analytics, and 1-click CSV export.
-
----
 
 ## 🛠️ Project Structure
 
@@ -56,32 +35,6 @@ Online_Tourist_Planner/
 └── README.md                                 # Complete Documentation
 ```
 
----
-
-## 🚀 How to Run
-
-### Option 1: Instant Demo (Frontend Standalone with Fallback DB)
-1. Double-click `run_demo.bat` or run:
-   ```powershell
-   cd frontend
-   npm install
-   npm run dev
-   ```
-2. Open your browser at `http://localhost:3000`.
-
-### Option 2: Full Stack (Spring Boot Backend + React Frontend)
-1. **Start the Backend**:
-   ```bash
-   cd backend
-   mvn spring-boot:run
-   ```
-   *Spring Boot will start on `http://localhost:8080` with pre-loaded mock data and H2 console at `/h2-console`.*
-
-2. **Start the Frontend**:
-   ```bash
-   cd frontend
-   npm run dev
-   ```
 
 ---
 
